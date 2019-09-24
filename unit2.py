@@ -1,5 +1,16 @@
 name = input("What is your name?")
 print("What's up", name, "my name is Herbert, but you can call me Herb. Where are you from?")
 place = input()
-print("Woah, I wish I lived in," , place, " instead of this computer.")
-
+print("Woah,", place, "sounds like a great place to live.")
+number = int(input("What is your favorite number?"))
+my_number = 3 * number
+print("That's so cool, my favorite number", my_number, "is three times bigger than your favorite number", number)
+car = input("What is your dream car?")
+print("Dang", name, "I see you. A", car, "is a great car.")
+price = float(input("How much does it cost?"))
+print("Golly", price, "is a lot of dinero. If you took out a loan, how many years would you make it be?")
+years = float(input())
+print("What would the annual interest rate (percent) be?")
+amoutn_of_months_to_pay = years / 12
+interest_rate = float(input())
+monthly_cost = float(interest_rate * price) / (1 - (1 + monthly_cost)** - n)
