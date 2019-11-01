@@ -1,3 +1,6 @@
+# Xander Eagle
+# September 25, 2019
+# this program interacts with the user and tells them how much their dream car would cost
 name = input("What is your name?")
 print("What's up", name, "my name is Herbert, but you can call me Herb. Where are you from?")
 place = input()
@@ -18,5 +21,4 @@ monthly__cost = float(monthly_interest_rate * price) / (1 - (1 + monthly_interes
 print("If you bought a", car, "your monthly cost would be,", monthly__cost, "per month.")
 total_cost = monthly__cost * 12 * years
 print("And the total cost would be,", total_cost)
-
-
+print("I hope I helped. Good bye and have a great day!")
